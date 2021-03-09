@@ -1,0 +1,151 @@
+body {
+  font-family: 'Arial', sans-serif;
+  color:#474747;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 23px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 19px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+#header_background {
+  position: absolute;
+  height: 237px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: -2;
+}
+#img_logo {
+  width: 250px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom:0px;
+}
+#img_profile {
+  width: 100px;
+  height: auto;
+  margin-left: 80%;
+  margin-top: 40px;
+  border-radius: 50%;
+}
+.tab {
+  margin-right: 100px;
+  margin-top: 62px;
+  margin-bottom: 10px;
+  letter-spacing: 0.2em;
+}
+#blue_underline {
+  width: 162px;
+  height: 10px;
+  background-color: #00A1E2;
+}
+.dropDown_bar {
+  width: 240px;
+  height: auto;
+  border: 2px solid #474747;
+}
+
+.dropDown_box {
+  padding: 5px;
+  width: 18px;
+  height: auto;
+  border: 3px solid #474747;
+  background: lightgrey;
+}
+
+.dropDown_triangle {
+  margin: 0px;
+  margin-top: 5px;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 9px solid #474747;
+}
+
+.container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.section {
+  white-space: nowrap;
+  margin-left: 50px;
+}
+
+.card {
+  display: inline-block;
+  background-color: #faf7f4;
+  margin-right: 60px;
+  width: 350px;
+  height: 250px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  letter-spacing: 0.02em;
+}
+.item-title {
+  margin-left: 15px;
+  margin-top:22px;
+  margin-bottom: 0px;
+}
+.item-content {
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.item-percentage {
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+.item-des {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.bar-progress1 {
+  background: #585858;
+  width: 100px;
+  height: 15px;
+  border-radius: 50px;
+}
+.bar-progress2 {
+  background: #585858;
+  width: 72px;
+  height: 15px;
+  border-radius: 50px;
+}
+.bar-progress3 {
+  background: #585858;
+  width: 42px;
+  height: 15px;
+  border-radius: 50px;
+}
+.bar-progress4 {
+  background: #585858;
+  width: 140px;
+  height: 15px;
+  border-radius: 50px;
+}
+.bar-progress5 {
+  background: #585858;
+  width: 39px;
+  height: 15px;
+  border-radius: 50px;
+}
+.bar-base {
+  width: 155px;
+  height: 15px;
+  background: #c4c2c2;
+  border-radius: 50px;
+}
